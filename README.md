@@ -4,23 +4,23 @@
 
 ## Table of Contents
 
-- [How It Works — High Level](#how-it-works--high-level)
-- [Architecture Overview](#architecture-overview)
-- [Module Breakdown](#module-breakdown)
-  - [scalper.py — Main Loop](#scalperpy--main-loop)
-  - [brain.py — AI Decision Engine](#brainpy--ai-decision-engine)
-  - [markets.py — Data & Signal Engine](#marketspy--data--signal-engine)
-  - [executioner.py — Order Execution](#executionerpy--order-execution)
-  - [exits.py — Position Exit System](#exitspy--position-exit-system)
-  - [state.py — Global State](#statepy--global-state)
-  - [config.py — Configuration](#configpy--configuration)
-  - [logger.py — Logging](#loggerpy--logging)
-- [Trading Strategy](#trading-strategy)
-- [Threshold & Risk System](#threshold--risk-system)
-- [Exit Conditions](#exit-conditions)
-- [Circuit Breakers](#circuit-breakers)
-- [Setup & Usage](#setup--usage)
-- [Simulation Mode](#simulation-mode)
+- How It Works — High Level
+- Architecture Overview
+- Module Breakdown
+  - scalper.py — Main Loop
+  - brain.py — AI Decision Engine
+  - markets.py — Data & Signal Engine
+  - executioner.py — Order Execution
+  - exits.py — Position Exit System
+  - state.py — Global State
+  - config.py — Configuration
+  - logger.py — Logging
+- Trading Strategy
+- Threshold & Risk System
+- Exit Conditions
+- Circuit Breakers
+- Setup & Usage
+- Simulation Mode
 
 ---
 
