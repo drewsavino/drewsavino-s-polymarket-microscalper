@@ -388,3 +388,6 @@ If `POLY_PRIVATE_KEY` is not set (or `py-clob-client` is not installed), the bot
 - All P&L tracking, exits, and circuit breakers function normally
 
 This lets you validate strategy and prompt quality without risking real funds.
+
+## Disclaimer
+This project is intended for educational and experimental purposes only. The Polymarket Microscalper is an autonomous trading bot that interacts with real prediction markets and may involve the use of real funds. By using, copying, or modifying this code, you acknowledge and accept that you do so entirely at your own risk. The creator (David Savino) makes no guarantees regarding profitability, accuracy, or reliability of the bot's decisions. Prediction market trading carries significant financial risk, and past performance — if any — is not indicative of future results. This tool is not financial advice. You are solely responsible for any losses, damages, or consequences that arise from using this software. Always trade responsibly and never risk more than you can afford to lose.
