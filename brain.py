@@ -6,9 +6,6 @@ This module handles all communication with the Anthropic API:
   2. Builds the user prompt (portfolio + markets + history)
   3. Sends the request and parses the JSON response
   4. Falls back to the backup model on failure
-
-The prompt is the most critical part of the bot. Claude's trading
-quality is directly proportional to the prompt quality.
 """
 
 import json
@@ -94,7 +91,6 @@ def analyze_markets(state: dict, markets: list[dict]) -> dict:
 
 def _build_system_prompt(state: dict) -> str:
     """
-    Build the system prompt that defines Claude's trading persona.
 
     The system prompt sets:
       - Role and expertise level
